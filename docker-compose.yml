@@ -21,7 +21,6 @@ services:
       - ".env"
     depends_on:
       - db
-    restart: always
     networks:
       - notes-app-nw
 
